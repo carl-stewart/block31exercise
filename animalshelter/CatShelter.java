@@ -10,7 +10,9 @@ public class CatShelter extends AnimalShelter {
         return (Cat) super.adoptAnimal();
     }
 
-    void putAnimal(Cat cat){
+    public void putAnimal(Cat cat){
         super.putAnimal(cat);
     }
+
+
 }
